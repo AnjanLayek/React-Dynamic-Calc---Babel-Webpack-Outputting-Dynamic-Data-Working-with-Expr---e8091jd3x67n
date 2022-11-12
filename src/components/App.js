@@ -15,7 +15,7 @@ const App = () => {
    }
    useEffect(()=>{
     setResult(Number(input1) + Number(input2))
-   })
+   },[input1,input2]);
    
   return (
     <div id="main">
